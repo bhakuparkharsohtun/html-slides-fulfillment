@@ -10,7 +10,7 @@ compatibility_date = "2026-01-01"
 WEBHOOK_AUDIENCE = "d68ee3d8-604a-4e67-bc0e-ba092e8abc2e"
 
 # Entra app used by the landing page for interactive sign in (App 2 Landing Page).
-LANDING_CLIENT_ID = "19d7e8dd-41da-4301-8654-9f2d9914efe0
+LANDING_CLIENT_ID = "19d7e8dd-41da-4301-8654-9f2d9914efe0"
 
 # Entra app the PowerPoint add-in signs in with (App 3 HTML Add-in).
 ADDIN_CLIENT_ID = "7fa88c81-aa12-487b-b13f-0c8fbda42b79"
