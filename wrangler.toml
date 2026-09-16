@@ -17,8 +17,8 @@ ADDIN_CLIENT_ID = "7fa88c81-aa12-487b-b13f-0c8fbda42b79"
 
 # Publisher tenant. Tokens for the fulfillment API must be issued by the
 # tenant that owns the offer, never the customer tenant.
-PUBLISHER_TENANT_ID = "REPLACE_WITH_PUBLISHER_TENANT_ID"
-PUBLISHER_CLIENT_ID = "REPLACE_WITH_PUBLISHER_APP_ID"
+PUBLISHER_TENANT_ID = "b33df94e-04eb-4c0d-a596-812de8e21769"
+PUBLISHER_CLIENT_ID = "d68ee3d8-604a-4e67-bc0e-ba092e8abc2e"
 
 # Where to send the customer after a successful activation.
 PRODUCT_URL = "https://website-8f65c512.jpm.waz.mybluehost.me/docs.html"
