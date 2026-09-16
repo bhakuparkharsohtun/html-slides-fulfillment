@@ -1,0 +1,34 @@
+name = "html-slides-fulfillment"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+# Non-secret configuration. Secrets are set in the Cloudflare dashboard
+# under Settings > Variables and Secrets, with type Secret.
+
+# Entra app ID that Partner Center sends webhook tokens for (App 1).
+WEBHOOK_AUDIENCE = "REPLACE_WITH_WEBHOOK_APP_ID"
+
+# Entra app used by the landing page for interactive sign in (App 2).
+LANDING_CLIENT_ID = "REPLACE_WITH_LANDING_APP_ID"
+
+# Entra app the PowerPoint add-in signs in with (App 3).
+ADDIN_CLIENT_ID = "REPLACE_WITH_ADDIN_APP_ID"
+
+# Publisher tenant. Tokens for the fulfillment API must be issued by the
+# tenant that owns the offer, never the customer tenant.
+PUBLISHER_TENANT_ID = "REPLACE_WITH_PUBLISHER_TENANT_ID"
+PUBLISHER_CLIENT_ID = "REPLACE_WITH_PUBLISHER_APP_ID"
+
+# Where to send the customer after a successful activation.
+PRODUCT_URL = "https://website-8f65c512.jpm.waz.mybluehost.me/docs.html"
+
+# Origins allowed to call /api/entitlement from the browser.
+ALLOWED_ORIGINS = "https://website-8f65c512.jpm.waz.mybluehost.me"
+
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS"
+id = "d6021ee7195946b9a446b7461e22c7be"
+
+[observability]
+enabled = true
