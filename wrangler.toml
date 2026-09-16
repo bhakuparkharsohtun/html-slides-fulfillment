@@ -7,13 +7,13 @@ compatibility_date = "2026-01-01"
 # under Settings > Variables and Secrets, with type Secret.
 
 # Entra app ID that Partner Center sends webhook tokens for (App 1).
-WEBHOOK_AUDIENCE = "REPLACE_WITH_WEBHOOK_APP_ID"
+WEBHOOK_AUDIENCE = "d68ee3d8-604a-4e67-bc0e-ba092e8abc2e"
 
 # Entra app used by the landing page for interactive sign in (App 2).
-LANDING_CLIENT_ID = "REPLACE_WITH_LANDING_APP_ID"
+LANDING_CLIENT_ID = "19d7e8dd-41da-4301-8654-9f2d9914efe0
 
 # Entra app the PowerPoint add-in signs in with (App 3).
-ADDIN_CLIENT_ID = "REPLACE_WITH_ADDIN_APP_ID"
+ADDIN_CLIENT_ID = "7fa88c81-aa12-487b-b13f-0c8fbda42b79"
 
 # Publisher tenant. Tokens for the fulfillment API must be issued by the
 # tenant that owns the offer, never the customer tenant.
